@@ -19,14 +19,14 @@ In this stage, the design can be written with C++, MATLAB, or Python codes.
    <img src="https://github.com/petergad14/petergad14.github.io/assets/139645814/d8711fbf-e4b7-4402-a303-22c654816223" width="500" height="300">
 </p>
 
-5. `Place & Route:`The placement stage determines the physical location of each logic element within the FPGA chip, while the routing stage determines the interconnections between these elements.
+4. `Place & Route:`The placement stage determines the physical location of each logic element within the FPGA chip, while the routing stage determines the interconnections between these elements.
 
    <p align="center">
    <img src="https://github.com/petergad14/petergad14.github.io/assets/139645814/2fe9c0d9-24df-4bc2-8ba3-1612f3c628e5" width="500" height="300">
    </p>
 
-1. `STA:` After place and route, timing analysis is performed to ensure that the design meets the required timing constraints. This analysis considers factors such as signal delays, clock frequencies, and setup/hold times.
+5. `STA:` After place and route, timing analysis is performed to ensure that the design meets the required timing constraints. This analysis considers factors such as signal delays, clock frequencies, and setup/hold times.
 
 
-7. `Download and verify:`The FPGA is now programmed with the desired circuit functionality. This configures the FPGA with the desired circuit. The design is then verified and tested for correct functionality, performance, and compliance with the specifications.      
+6. `Download and verify:`The FPGA is now programmed with the desired circuit functionality. This configures the FPGA with the desired circuit. The design is then verified and tested for correct functionality, performance, and compliance with the specifications.      
 The design is then verified and tested for correct functionality, performance, and compliance with the specifications.
