@@ -28,5 +28,5 @@ In this stage, the design can be written with C++, MATLAB, or Python codes.
 5. `STA:` After place and route, timing analysis is performed to ensure that the design meets the required timing constraints. This analysis considers factors such as signal delays, clock frequencies, and setup/hold times.
 
 
-6. `Download and verify:`The FPGA is now programmed with the desired circuit functionality. This configures the FPGA with the desired circuit. The design is then verified and tested for correct functionality, performance, and compliance with the specifications.      
+6. `Download and verify:`The FPGA is now programmed with the desired circuit functionality. This configures the FPGA with the desired circuit.      
 The design is then verified and tested for correct functionality, performance, and compliance with the specifications.
