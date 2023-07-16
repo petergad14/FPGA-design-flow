@@ -10,7 +10,7 @@ _If you are a beginner wanting to briefly know the FPGA design flow, you're in t
 1. `Functional specifications:` The process starts with defining the requirements and specifications of the desired circuit. This includes understanding the system-level functionality, input/output interfaces, performance requirements, and any specific constraints.
 In this stage, the design can be written with C++, MATLAB, or Python codes.
 
-2. `HDL:` In this step, a hardware description language (HDL) such as VHDL or Verilog is used to write the design description and RTL is an output of this step.
+2. `HDL:` In this step, a hardware description language (HDL) such as VHDL or Verilog is used to write the design description.
     * `Behavioral simulation:` The design is simulated and test vectors are applied to verify that the design functions correctly and meets the desired specifications.
 
 3. `Synthesis:`The high-level design is then converted into Register-Transfer Level (RTL) code, which represents the design in terms of registers, logic blocks, and their interconnections. RTL synthesis tools map the high-level design to the target FPGA architecture, optimizing for factors such as performance, area, and power consumption as shown in the figure below.
